@@ -264,7 +264,7 @@
             scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
+            startupVolume: 5, // 0-100
             startupEmoji: false, // true or false
             autowoot: true,
             autoskip: false,
@@ -303,9 +303,9 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
-            motdEnabled: false,
+            motdEnabled: true,
             motdInterval: 5,
-            motd: 'Temporary Message of the Day',
+            motd: 'sem si napis spravu pro spamovani',
             filterChat: true,
             etaRestriction: false,
             welcome: true,
